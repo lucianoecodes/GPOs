@@ -1,2 +1,11 @@
+# On GPO
 COMPUTER CONFIG > Administrative Templates > Windows Componentes > Tablet PC > Accessories
 "Do not allow Snipping Tool to run"
+
+# On Regedit
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,04,00,00,00,2A,E0,37,E0,00,00,37,E0,00,00,54,00,00,00,00,00
+
