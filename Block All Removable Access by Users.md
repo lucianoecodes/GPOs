@@ -17,3 +17,10 @@ Tape Drives: Deny read access				Set		Enabled
 Tape Drives: Deny write access			Set		Enabled  
 WPD Devices: Deny read access				Set		Enabled  
 WPD Devices: Deny write access			Set		Enabled  
+
+
+# Recommendation for Exception Apply users
+
+1) Create a user group on Active Directory the like GRP-EXC- ....
+2) On group policy > Delegation Tab , Add this group
+3) Check the permittion "Apply group policy" on column Deny.
