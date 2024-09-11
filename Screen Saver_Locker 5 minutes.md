@@ -16,7 +16,8 @@ Turn Off the Display (seconds): 300
 Turn off the display (plugged in) Enabled  
 Turn Off the Display (seconds): 300
 
-# User Configuration > Policies > Administrative Templates: Policy definitions (ADMX files) >
+# Path on User Setting
+User Configuration > Policies > Administrative Templates: Policy definitions (ADMX files) >
 Control Panel > Personalization 
 
 ![image](https://github.com/user-attachments/assets/a674c4e4-5dec-43bb-92ba-1fb65c457fce)
