@@ -16,3 +16,10 @@ Right button > Create a New Windows Policy for Windows Vista and Later Releases
 * Only use Group Policy profiles for allowed networks.
 
 ![image](https://github.com/user-attachments/assets/074a779a-b69f-4c95-ab50-17c4b123abe7)
+
+
+# Recommendation for Exception Apply users
+
+1) Create a user group on Active Directory the like GRP-EXC- ....
+2) On group policy > Delegation Tab , Add this group
+3) Check the permittion "Apply group policy" on column Deny.
